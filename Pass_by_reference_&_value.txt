@@ -1,0 +1,8 @@
+The terms "pass by value" and "pass by reference" are used to describe the two ways that variables can be passed on. Cliff notes version: : pass by value means the actual value is passed on. Pass by reference means that a number (called a memory address) is passed on, this address defines where the value is stored.
+
+Pass-by-reference :
+In pass-by-reference, the box (the variable) is passed directly into the function, and its contents (the object represented by the variable) implicitly come with it. Inside the function context, the argument is essentially a complete alias for the variable passed in by the caller. They are both the exact same box, and therefore also refer to the exact same object in memory.
+
+Pass-by-value
+In pass-by-value, the function receives a copy of the argument objects passed to it by the caller, stored in a new location in memory.
+
